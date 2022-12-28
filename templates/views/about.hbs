@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    {{>headerlinks}}
+    <!-- <link rel="shortcut icon" href="./img/" type="image/x-icon"> -->
+
+</head>
+<body>
+   {{>navbar}}
+<!-- Main Header -->
+<div class="containter-fluid main_header">
+    <div class="row">
+        <div class="col-md-10 col-12 mx-auto">
+            <div class="row">
+                <!-- left side div -->
+                <div class="col-md-6 col-12 main_header_right align-items-center">
+                    <figure>
+                      <img src="./img/about.jpg" alt="vipin" class="img-fluid img-flu " title="Hey :)">
+                    </figure>
+                  </div>
+                <!-- right side div -->
+                <div class="col-md-6 col-12 main_header_left">
+                  <p>Welcome To My weather app</p>
+                  <h1>I Am A <span>Web Developer</span> And A Quick Learner</h1>
+                  <a href="https://www.linkedin.com/in/vipin-patidar/" target="_vipin" ><button>About Me</button></a>
+                </div>
+               
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!-- Footer Html -->
+{{>footer}}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
